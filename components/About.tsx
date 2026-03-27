@@ -128,7 +128,7 @@ export default function About() {
               Over a decade of experience at the intersection of engineering execution and strategic oversight.
               With a portfolio spanning landmark projects including{' '}
               <span className="text-gold-400 font-medium">Packages Mall</span> and the{' '}
-              <span className="text-gold-400 font-medium">Orange Line Metro</span>, Saad brings deep technical
+              <span className="text-gold-400 font-medium">Lahore Metro</span>, Saad brings deep technical
               expertise in project management, <span className="text-cream/80">QA/QC</span>, and resource optimization.
             </motion.p>
 
