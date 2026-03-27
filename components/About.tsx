@@ -103,28 +103,6 @@ export default function About() {
               <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900 to-transparent pointer-events-none" />
             </div>
 
-            {/* Floating on-site photo */}
-            <motion.div
-              initial={{ opacity: 0, x: 30, y: 20 }}
-              whileInView={{ opacity: 1, x: 0, y: 0 }}
-              transition={{ duration: 0.9, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true }}
-              className="absolute -bottom-8 -right-4 md:-right-8 w-44 md:w-52 shadow-2xl border-2 border-navy-900"
-            >
-              <Image
-                src="/assets/image12.jpeg"
-                alt="Saad at construction site"
-                width={210}
-                height={230}
-                className="w-full object-cover"
-              />
-              <div className="absolute inset-0 bg-navy-950/20" />
-              {/* Label overlay */}
-              <div className="absolute bottom-0 left-0 right-0 p-2.5 bg-navy-950/80 backdrop-blur-sm">
-                <p className="font-mono text-[8px] tracking-[0.25em] text-gold-400/90 uppercase">On Site · Lahore</p>
-              </div>
-            </motion.div>
-
             {/* Name plate below portrait */}
             <div className="mt-8 flex items-center gap-4">
               <div className="w-10 h-px bg-gold-500/50" />
